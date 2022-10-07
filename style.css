@@ -2,20 +2,23 @@
     font-family: 'Staatliches', cursive; 
     padding: 0%;
     margin: 0%;
-
-    
 }
 html{
     overflow-y: scroll;
     scroll-behavior: smooth;
+    background-color: #e0daa2;
 }
 nav {
-    background-color:white;
-    height: 25px;
+    background-color: transparent;
+    height: 50px;
     width: 100%;
-    margin-bottom: 10px;
-    margin-top: 10px;
+    z-index: 1; /* 1111111  */
+    position: fixed;
 }
+nav.scroll {
+    background-color:#ec7560; 
+    transition: 1s;
+    }
 
 ul{
     float: right;
@@ -24,12 +27,12 @@ ul{
 
 li{
     display:inline-block;
-    line-height: 20px;
+    line-height: 50px;
     margin: 0 5px;
 }
 
 nav ul li a {
-    color:black;
+    color:rgb(255, 255, 255);
     font-size: 20px;
     padding: 5px 10px;
     border-radius: 5px;
@@ -39,10 +42,12 @@ nav ul li a {
 }
 
 .welcome{
-    color:black;
-    line-height: 20px;
+    color:white;
+    line-height: 50px;
     padding: 0 50px;
-    font-size: 20px;   
+    font-size: 20px; 
+    padding: 5px 10px; 
+    
 }
 
 .hover:hover{
