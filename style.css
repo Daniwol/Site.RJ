@@ -221,13 +221,15 @@ h2{
     background-color:#df9588;
 }
 @media (max-width: 600px){
-    
+    nav{
+        flex-direction: column-reverse;
+    }
     .pontos{
         padding: 20px;
     }
     .city, .contato{
         flex-direction: column-reverse;
-    }
+    }                                             
     .pontoscontainer{
         flex-direction: column;
     }
