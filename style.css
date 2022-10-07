@@ -224,9 +224,7 @@ h2{
     html{
         display: flex;
     }
-    nav{
-        display: flex;
-    }
+
     .pontos{
         padding: 20px;
     }
