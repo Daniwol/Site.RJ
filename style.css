@@ -225,7 +225,7 @@ h2{
         display: flex;
     }
     nav.scroll{
-        position: fixed;
+        z-index: 1; /* 1111111  */
         transition: 1s;
     }
     .pontos{
