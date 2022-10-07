@@ -220,11 +220,8 @@ h2{
 .topo:hover{
     background-color:#df9588;
 }
-@media (max-width: 1000px){
-    .header{
-        display: flex;
-        justify-content: center;
-    }
+@media (max-width: 600px){
+    
     .pontos{
         padding: 20px;
     }
@@ -248,7 +245,5 @@ h2{
     .buttondois{
         margin-bottom: 10px;
     }
-    .nav{
-        text-align: center;
-    }
+    
 }
