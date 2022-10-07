@@ -221,6 +221,9 @@ h2{
     background-color:#df9588;
 }
 @media (max-width: 600px){
+    html{
+        display: flex;
+    }
     nav{
         display: flex;
     }
