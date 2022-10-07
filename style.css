@@ -16,10 +16,9 @@ nav {
     position: fixed;
 }
 nav.scroll {
-    background-color:#ec7560; 
+    background-color: #e28979;
     transition: 1s;
-    }
-
+}
 ul{
     float: right;
     margin-right: 10px;
@@ -222,6 +221,10 @@ h2{
     background-color:#df9588;
 }
 @media (max-width: 768px){
+    .header{
+        display: flex;
+        justify-content: center;
+    }
     .pontos{
         padding: 20px;
     }
@@ -234,6 +237,7 @@ h2{
     .pontosimg{
         object-fit: cover;
         max-height: 250px;
+        width: 100%;
     }
     .contato{
         flex-direction: column-reverse;
