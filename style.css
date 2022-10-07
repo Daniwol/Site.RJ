@@ -224,10 +224,6 @@ h2{
     nav{
         display: flex;
     }
-    nav.scroll{
-        z-index: 1; /* 1111111  */
-        transition: 1s;
-    }
     .pontos{
         padding: 20px;
     }
