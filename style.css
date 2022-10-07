@@ -1,0 +1,253 @@
+*{
+    font-family: 'Staatliches', cursive; 
+    padding: 0%;
+    margin: 0%;
+
+    
+}
+html{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+nav {
+    background-color:white;
+    height: 25px;
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+ul{
+    float: right;
+    margin-right: 10px;
+}
+
+li{
+    display:inline-block;
+    line-height: 20px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color:black;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.7s;
+    text-decoration: none;
+    list-style: none;
+}
+
+.welcome{
+    color:black;
+    line-height: 20px;
+    padding: 0 50px;
+    font-size: 20px;   
+}
+
+.hover:hover{
+    background-color: #e9e3b0;
+}
+
+header {
+    background:url(./imagens/city.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 530px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.margem{
+    margin-bottom: 15px;
+    
+
+}
+
+.title{
+    font-size: 70px;
+    color:rgb(211, 160, 112);
+}
+
+.subtitulo {
+      color: rgb(236, 230, 178);
+      font-size: 20px;
+      margin-bottom: 35px;
+     
+}
+
+.button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(248, 175, 66);
+    font-weight: bold;
+    font-size: 20px;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+}
+
+.button:hover{
+    background-color: rgba(190, 158, 141, 0.658);
+}
+
+.city{   
+    display: flex;
+    width: 100%;
+}   
+
+.itemflex50{
+    flex-basis: 50%;
+}
+
+.cityimage{
+    width: 600px;
+    object-fit: cover;
+    opacity: 90%;
+    height: 700px;
+}
+
+h2{
+    font-size: 40px;
+    font:bold;
+}
+
+.cityflex{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 100%;
+}
+
+
+
+.textoflex{
+    padding: 12px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+
+}
+.buttondois{
+     border: 2px solid #f5acac;
+     color: #ec7560; 
+     border-radius: 7px;
+     padding: 2px 5px;
+     font-size: 15px;
+     cursor: pointer;
+     background-color: transparent;
+   
+}
+.buttondois:hover{
+    background-color: #e9e3b0;
+}
+.pontoscontainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 10px;
+}
+.pontos{
+    padding: 0;
+}
+.container{
+    max-width: 970px;
+    margin: 0 auto;
+}
+.pontosimg{
+    width: 100%;
+    max-height: 600px;
+}
+
+.cristotext{
+    background-color: #e28979;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding:20px 0;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+
+.paotext{
+    background-color: #e28979;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding:20px 0;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+
+.maracanatext{
+    background-color: #e28372;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding:20px 0;
+    justify-content: center;
+
+}
+.contato{
+   margin-top: 5px; 
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 30px;
+
+}
+.contatotitle{
+    margin-bottom: 13px;
+        
+}
+
+
+
+.topo {
+    text-decoration: none;
+    text-align: center;
+    float:right;
+    border: 2px solid black;
+    color: black ;
+    border-radius: 7px;
+    padding: 2px 5px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color: transparent;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.topo:hover{
+    background-color: #e9e3b0;
+}
+@media (max-width: 768px){
+    .pontos{
+        padding: 20px;
+    }
+    .city, .contato{
+        flex-direction: column-reverse;
+    }
+    .pontoscontainer{
+        flex-direction: column;
+    }
+    .pontosimg{
+        object-fit: cover;
+        max-height: 250px;
+    }
+    .contato{
+        flex-direction: column-reverse;
+    }
+    .pontosh2{
+        text-align: center;
+    }
+    .buttondois{
+        margin-bottom: 10px;
+    }
+}
