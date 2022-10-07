@@ -220,7 +220,7 @@ h2{
 .topo:hover{
     background-color:#df9588;
 }
-@media (max-width: 768px){
+@media (max-width: 650px){
     .header{
         display: flex;
         justify-content: center;
